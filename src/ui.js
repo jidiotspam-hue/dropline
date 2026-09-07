@@ -442,6 +442,7 @@ DL.ui = (function () {
       const open = el.textWrap.hidden;
       el.textWrap.hidden = !open;
       el.actText.setAttribute('aria-expanded', String(open));
+      el.actText.classList.toggle('act-strong', open);
       if (open) el.textInput.focus();
     });
 
@@ -528,6 +529,7 @@ DL.ui = (function () {
       el.textInput.value = '';
       el.textWrap.hidden = true;
       el.actText.setAttribute('aria-expanded', 'false');
+      el.actText.classList.remove('act-strong');
     }
   }
 

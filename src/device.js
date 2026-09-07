@@ -182,7 +182,7 @@ DL.device = (function () {
       // Thumbnails decode a whole image into memory; not worth it on a device
       // that is already tight, or when the user asked us to save data.
       thumbnails: tier !== 'low' && tier !== 'minimal' && !s.saveData,
-      qrPixels: tier === 'minimal' || tier === 'low' ? 132 : 148,
+      qrPixels: tier === 'minimal' || tier === 'low' ? 148 : 176,
     };
   }
 
