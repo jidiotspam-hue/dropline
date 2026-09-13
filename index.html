@@ -6,10 +6,10 @@
 <meta name="color-scheme" content="light dark">
 <title>dropline</title>
 <meta name="description" content="Send files straight between two browsers. Nothing is uploaded, nothing is stored.">
-<link rel="stylesheet" href="style.bb9fb64d1c.css">
+<link rel="stylesheet" href="style.254a30c35a.css">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#F0EEE6" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#171615" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F5EAD8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1815" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='3' fill='%23D97757'/></svg>">
 </head>
@@ -34,7 +34,7 @@
     <div class="invite-actions">
       <input type="text" id="share-link" readonly spellcheck="false" aria-label="Session link">
       <div class="row">
-        <button id="copy-btn" type="button" class="act">Copy link</button>
+        <button id="copy-btn" type="button" class="act act-accent">Copy link</button>
         <button id="share-btn" type="button" class="act" hidden>Share</button>
       </div>
     </div>
@@ -70,7 +70,7 @@
 
     <div id="text-wrap" class="text-wrap" hidden>
       <textarea id="text-input" rows="2" placeholder="A link, a password, a snippet…" aria-label="Text to send"></textarea>
-      <button id="send-text" type="button" class="act">Send</button>
+      <button id="send-text" type="button" class="act act-strong">Send</button>
     </div>
 
     <input type="file" id="file-input" multiple hidden>
@@ -84,7 +84,7 @@
   <!-- ── Error ──────────────────────────────────────────────── -->
   <section id="view-error" class="view" hidden>
     <p class="err" id="error-msg"></p>
-    <button class="act" id="error-reset" type="button">Start over</button>
+    <button class="act act-strong" id="error-reset" type="button">Start over</button>
   </section>
 
   <footer class="foot">
@@ -95,7 +95,7 @@
       <button id="settings-btn" type="button" class="foot-btn">Settings</button>
       <button id="install-btn" type="button" class="foot-btn" hidden>Install</button>
       <a href="updates.html">Updates</a>
-      <a href="https://github.com/Aidiotic/dropline">Source</a>
+      <a href="https://github.com/jidiotspam-hue/dropline">Source</a>
     </span>
   </footer>
 
@@ -155,6 +155,6 @@
 <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"
         integrity="sha384-lQXOAyZwHXE55JFyrOMB7nY2Wv+m5ZWNtJcHrd1rceRQXAYNLak8ukN5TjBTcIwz"
         crossorigin="anonymous"></script>
-<script src="dropline.a948b67c47.js"></script>
+<script src="dropline.f217c19e48.js"></script>
 </body>
 </html>

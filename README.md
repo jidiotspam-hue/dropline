@@ -4,8 +4,8 @@ Send files straight from one browser to another. The bytes travel over a WebRTC
 data channel — they never land on a server, so there is nothing to host, nothing
 to pay for, and nothing to delete afterwards.
 
-**Live at [aidiotic.github.io/dropline](https://aidiotic.github.io/dropline/)** ·
-[Update log and roadmap](https://aidiotic.github.io/dropline/updates.html)
+**Live at [jidiotspam-hue.github.io/dropline](https://jidiotspam-hue.github.io/dropline/)** ·
+[Update log and roadmap](https://jidiotspam-hue.github.io/dropline/updates.html)
 
 ## What it does
 
